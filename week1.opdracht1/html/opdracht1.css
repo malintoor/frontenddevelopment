@@ -1,0 +1,25 @@
+h2 {
+    color: green;
+}
+
+h1:hover {
+    color: red;
+}
+
+section:hover {
+    transform: rotate(180deg);
+    border-radius: 50px / 110px;
+    background-color: yellow;
+    font-style: oblique;
+}
+
+section img:hover {
+       transform: rotate(300deg);
+}
+
+section:nth-of-type(2) {
+    border-radius: 100px / 50px;
+    background-color: red;
+    transform:none;
+}
+
